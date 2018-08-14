@@ -3,16 +3,7 @@
 */
 
 // Font family: theSerif
-@font-face {
-  font-family: 'theSerif';
-  src: url('../fonts/theserif/theSerif-regular.eot');
-  src: local('theSerif'), url('../fonts/theserif/theSerif-regular.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/theserif/theSerif-regular.woff') format('woff'),
-  url('../fonts/theserif/theSerif-regular.ttf') format('truetype'),
-  url('../fonts/theserif/theSerif-regular.svg#theSerif') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700');
 
 @import "variables";
 @import "mixins";
