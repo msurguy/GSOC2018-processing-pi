@@ -1,0 +1,103 @@
+baseURL = "https://msurguy.github.io/GSOC2018-processing-pi"
+languageCode = "en"
+defaultContentLanguage = "en"    # en / fr / ... (This field determines which i18n file to use)
+title = "Google Summer of Code 2018 submission"
+enableRobotsTXT = true
+enableEmoji = true
+theme = "gsoc"
+
+preserveTaxonomyNames = true
+paginate = 10             # how many pages to show
+disqusShortname = ""      # disqus_shortname
+googleAnalytics = ""      # UA-XXXXXXXX-X
+copyright = "Maksim Surguy"            # default: author.name
+
+publishDir = "docs"
+
+[author]                  # essential
+  name = "Maksim Surguy"
+
+[sitemap]                 # essential
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[[menu.main]]             # config your menu
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+[[menu.main]]
+  name = "Context"
+  weight = 20
+  identifier = "context"
+  url = "/context/"
+[[menu.main]]
+  name = "Process"
+  weight = 20
+  identifier = "Process"
+  url = "/process/"
+[[menu.main]]
+  name = "Result"
+  weight = 30
+  identifier = "result"
+  url = "/result/"
+[[menu.main]]
+  name = "Next Steps"
+  weight = 80
+  identifier = "next-steps"
+  url = "#next-steps"
+
+[params]
+  debug = false             # If true, load `eruda.min.js`. See https://github.com/liriliri/eruda
+
+  since = "2018"            # Site creation date
+
+  # site info (optional)
+  logoTitle = "GSOC 2018"        # default: the title value
+  keywords = ["gsoc","processing", "raspberry pi"]
+  description = "Description of Google Summer of Code 2018 project for website and tutorials for Processing on Raspberry Pi"
+
+  # paginate of archives, tags and categories
+  archivePaginate = 5
+
+  # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
+  dateFormatToUse = "2006-01-02"
+
+  # show word count and read time ?
+  moreMeta = false
+
+  # Some global options, you can also close or open something in front matter for a single post, see more information from `archetypes/default.md`.
+  toc = true
+  autoCollapseToc = false   # Auto expand and collapse toc
+  postMetaInFooter = true   # contain author, lastMod, markdown link, license
+  linkToMarkDown = false    # Only effective when hugo will output .md files
+  contentCopyright = ''     # e.g. '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
+
+  google_verification = ""  # Google_Verification
+
+  # Link custom CSS and JS assets
+  #   (relative to /static/css and /static/js respectively)
+  customCSS = []
+  customJS = []
+
+  [params.social]
+    c-twitter = "https://twitter.com/msurguy"
+    g-github = "https://github.com/msurguy"
+
+# Uncomment these options to make hugo output .md files.
+#[mediaTypes]
+#  [mediaTypes."text/plain"]
+#    suffix = "md"
+#
+#[outputFormats.MarkDown]
+#  mediaType = "text/plain"
+#  isPlainText = true
+#  isHTML = false
+#
+#[outputs]
+#  home = ["HTML", "RSS"]
+#  page = ["HTML", "MarkDown"]
+#  section = ["HTML", "RSS"]
+#  taxonomy = ["HTML", "RSS"]
+#  taxonomyTerm = ["HTML"]
