@@ -16,7 +16,7 @@ First of all, I’d like to say HUGE Thanks to the Processing Foundation and to 
 
 Google Summer of Code 2018 ran from May 14 to August 14 2018. In these three months I've worked with my mentor to create a brand new website and wrote a few comprehensive tutorials for using [Processing](http://processing.org/) (software) on Raspberry Pi single board computers.
 
-The result of my work is [hosted on Github](https://github.com/processing/processing-pi-website) and is accessible at [Pi.processing.org](http://pi.processing.org).
+The result of my work is [hosted on Github](https://github.com/processing/processing-pi-website/commits/master?author=msurguy) and is accessible at [Pi.processing.org](http://pi.processing.org).
 
 ## History and Context
 
