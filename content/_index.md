@@ -44,15 +44,21 @@ I developed the website using a very fast static site generator called ["Hugo"](
 I've learned how to use Hugo, how to create a theme for it and how to populate content using this incredible static site development framework.
 
 Here's the breakdown of the code contributions for the site so far: 
-{{< figure src="contributions.png" class="center"  title="Summary of the website contributions" >}} 
+{{< figure src="contributions.png" width="400" title="Summary of the website contributions" >}} 
+
+The work on the site consisted of:
+
+- Choosing what website engine to use (build from scratch or use a framework)
+- Creating a responsive layout and theme fitting the content and style of the site
+- Creating unique shortcodes to enable a wide variety of content (code, diagrams, figures, tables, asides, etc)
 
 ### Tutorials
 
 I've written three tutorials so far on the following topics:
 
-- Building a visual synthesizer (complete and publised)
-- Using Camera with Processing on the Pi (under review)
-- Building a capacitive touch musical instrument (being rewritten)
+- Building a visual synthesizer (complete and [publised](https://pi.processing.org/tutorial/visual-synth/))
+- Using Camera with Processing on the Pi ([under review](https://github.com/processing/processing-pi-website/tree/tutorial-camera))
+- Building a capacitive touch musical instrument ([being rewritten](https://github.com/processing/processing-pi-website/tree/tutorial-capacitive-touch-keyboard))
 
 In each tutorial, I've used various media to better convey the meaning to the reader:
 
@@ -66,10 +72,6 @@ In each tutorial, I've used various media to better convey the meaning to the re
 ### User Research
 
 Before I made the layout, structure and the content for the website, I've worked with one of my  classmates to do a great deal of user research to understand what people would need the most. We have captured the outcomes of that research in this report: https://drive.google.com/file/d/1FT_tDqWqY2RS66tmwVXCIke6VYXAW_6V/view?usp=sharing 
-
----
-
-{{% button text="View all work results" link="./result/" %}}
 
 ## Process
 
