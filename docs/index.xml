@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Google Summer of Code 2018 submission</title>
+    <link>https://msurguy.github.io/GSOC2018-processing-pi/</link>
+    <description>Recent content in Home on Google Summer of Code 2018 submission</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Maksim Surguy</copyright>
+    <lastBuildDate>Mon, 13 Aug 2018 21:38:52 +0800</lastBuildDate>
+    
+	<atom:link href="https://msurguy.github.io/GSOC2018-processing-pi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Context</title>
+      <link>https://msurguy.github.io/GSOC2018-processing-pi/context/</link>
+      <pubDate>Mon, 13 Aug 2018 21:38:52 +0800</pubDate>
+      
+      <guid>https://msurguy.github.io/GSOC2018-processing-pi/context/</guid>
+      <description> How I got into GSoC 2018  Story  </description>
+    </item>
+    
+    <item>
+      <title>Process</title>
+      <link>https://msurguy.github.io/GSOC2018-processing-pi/process/</link>
+      <pubDate>Mon, 13 Aug 2018 21:38:52 +0800</pubDate>
+      
+      <guid>https://msurguy.github.io/GSOC2018-processing-pi/process/</guid>
+      <description> What process looked like </description>
+    </item>
+    
+    <item>
+      <title>Results</title>
+      <link>https://msurguy.github.io/GSOC2018-processing-pi/result/</link>
+      <pubDate>Mon, 13 Aug 2018 21:38:52 +0800</pubDate>
+      
+      <guid>https://msurguy.github.io/GSOC2018-processing-pi/result/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shortcodes</title>
+      <link>https://msurguy.github.io/GSOC2018-processing-pi/post/shortcodes/</link>
+      <pubDate>Tue, 30 Aug 2016 16:01:23 +0800</pubDate>
+      
+      <guid>https://msurguy.github.io/GSOC2018-processing-pi/post/shortcodes/</guid>
+      <description>&lt;h1 id=&#34;buttons&#34;&gt;buttons&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;#&#34; class=&#34;button &#34; role=&#34;button&#34;&gt;  Button  &lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;a href=&#34;#&#34; class=&#34;button secondary&#34; role=&#34;button&#34;&gt;  Button  &lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;a href=&#34;#&#34; class=&#34;button outline&#34; role=&#34;button&#34;&gt;  Button  &lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;a href=&#34;#&#34; class=&#34;button secondary outline&#34; role=&#34;button&#34;&gt;  Button  &lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;a href=&#34;#&#34; class=&#34;button small&#34; role=&#34;button&#34;&gt;  Button  &lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;a href=&#34;#&#34; class=&#34;button secondary small&#34; role=&#34;button&#34;&gt;  Button  &lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;a href=&#34;#&#34; class=&#34;button big&#34; role=&#34;button&#34;&gt;  Button  &lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;a href=&#34;#&#34; class=&#34;button secondary big&#34; role=&#34;button&#34;&gt;  Button  &lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;a href=&#34;#&#34; class=&#34;button large&#34; role=&#34;button&#34;&gt;  Button  &lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;a href=&#34;#&#34; class=&#34;button secondary large&#34; role=&#34;button&#34;&gt;  Button  &lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;a href=&#34;#&#34; class=&#34;button upper&#34; role=&#34;button&#34;&gt;  Button  &lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;a href=&#34;#&#34; class=&#34;button secondary upper&#34; role=&#34;button&#34;&gt;  Button  &lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;a href=&#34;#&#34; class=&#34;button upper outline&#34; role=&#34;button&#34;&gt;  Button  &lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;a href=&#34;#&#34; class=&#34;button secondary upper outline&#34; role=&#34;button&#34;&gt;  Button  &lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;a href=&#34;#&#34; class=&#34;button round&#34; role=&#34;button&#34;&gt;  Button  &lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;a href=&#34;#&#34; class=&#34;button secondary round&#34; role=&#34;button&#34;&gt;  Button  &lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;a href=&#34;#&#34; class=&#34;button round outline&#34; role=&#34;button&#34;&gt;  Button  &lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;a href=&#34;#&#34; class=&#34;button secondary round outline&#34; role=&#34;button&#34;&gt;  Button  &lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;a href=&#34;#&#34; class=&#34;button inverted&#34; role=&#34;button&#34;&gt;  Button  &lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h1 id=&#34;optional-typography&#34;&gt;Optional typography&lt;/h1&gt;
+
+&lt;p&gt;Muted Text&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% muted %}}
+Some text  • For your information • Not as noticeable
+{{% /muted %}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Result:&lt;/p&gt;
+
+&lt;div class=&#34;muted&#34;&gt;
+  &lt;p&gt;Some text  • For your information • Not as noticeable&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;p&gt;=======&lt;/p&gt;
+
+&lt;h1 id=&#34;columns&#34;&gt;Columns&lt;/h1&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+  &lt;div class=&#34;col col-4&#34;&gt;
+&lt;p&gt;Default message without title.
+This is my text and a link to &lt;a href=&#34;google.com&#34;&gt;Google&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&#34;col col-4&#34;&gt;
+&lt;p&gt;Default message without title.
+This is my text and a link to &lt;a href=&#34;google.com&#34;&gt;Google&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&#34;col col-4&#34;&gt;
+&lt;p&gt;Default message without title.
+This is my text and a link to &lt;a href=&#34;google.com&#34;&gt;Google&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;h1 id=&#34;center-right-left&#34;&gt;center, right, left&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;## default
+![img](/path/to/img.gif &amp;quot;img&amp;quot;)
+
+{{% center %}}
+## center
+![img](/path/to/img.gif &amp;quot;img&amp;quot;)
+{{% /center %}}
+
+{{% right %}}
+## right
+![img](/path/to/img.gif &amp;quot;img&amp;quot;)
+{{% /right %}}
+
+{{% left %}}
+## left
+![img](/path/to/img.gif &amp;quot;img&amp;quot;)
+{{% /left %}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

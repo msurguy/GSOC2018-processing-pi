@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Shortcodes - Google Summer of Code 2018 submission</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Maksim Surguy" />
+  <meta name="description" content="buttons Button 
+Button 
+Button 
+Button 
+Button 
+Button 
+Button 
+Button 
+Button 
+Button 
+Button 
+Button 
+Button 
+Button 
+Button 
+Button 
+Button 
+Button 
+Button 
+Optional typography Muted Text
+{{% muted %}} Some text • For your information • Not as noticeable {{% /muted %}}  Result:
+Some text • For your information • Not as noticeable
+ =======
+Columns Default message without title. This is my text and a link to Google
+ Default message without title. This is my text and a link to Google
+ Default message without title. This is my text and a link to Google
+  center, right, left ## default ![img](/path/to/img.gif &amp;quot;img&amp;quot;) {{% center %}} ## center ![img](/path/to/img.gif &amp;quot;img&amp;quot;) {{% /center %}} {{% right %}} ## right ![img](/path/to/img.gif &amp;quot;img&amp;quot;) {{% /right %}} {{% left %}} ## left ![img](/path/to/img.gif &amp;quot;img&amp;quot;) {{% /left %}}  
+" />
+
+  <meta name="keywords" content="gsoc, processing, raspberry pi" />
+
+
+
+
+
+<link rel="canonical" href="https://msurguy.github.io/GSOC2018-processing-pi/post/shortcodes/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/GSOC2018-processing-pi/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/GSOC2018-processing-pi/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/GSOC2018-processing-pi/favicon-16x16.png">
+<link rel="manifest" href="/GSOC2018-processing-pi/manifest.json">
+<link rel="mask-icon" href="/GSOC2018-processing-pi/safari-pinned-tab.svg" color="#5bbad5">
+
+
+<link href="/GSOC2018-processing-pi/dist/gsoc-theme.min.css?v=0.1.2" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="Shortcodes" />
+<meta property="og:description" content="buttons
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+Optional typography
+
+Muted Text
+
+{{% muted %}}
+Some text  • For your information • Not as noticeable
+{{% /muted %}}
+
+
+Result:
+
+
+  Some text  • For your information • Not as noticeable
+
+
+
+
+=======
+
+Columns
+
+
+  
+Default message without title.
+This is my text and a link to Google
+
+
+
+
+Default message without title.
+This is my text and a link to Google
+
+
+
+
+Default message without title.
+This is my text and a link to Google
+
+
+
+
+
+center, right, left
+
+## default
+![img](/path/to/img.gif &quot;img&quot;)
+
+{{% center %}}
+## center
+![img](/path/to/img.gif &quot;img&quot;)
+{{% /center %}}
+
+{{% right %}}
+## right
+![img](/path/to/img.gif &quot;img&quot;)
+{{% /right %}}
+
+{{% left %}}
+## left
+![img](/path/to/img.gif &quot;img&quot;)
+{{% /left %}}
+
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://msurguy.github.io/GSOC2018-processing-pi/post/shortcodes/" />
+
+
+
+<meta property="article:published_time" content="2016-08-30T16:01:23&#43;08:00"/>
+
+<meta property="article:modified_time" content="2018-02-01T18:01:23&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Shortcodes">
+<meta itemprop="description" content="buttons
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+Optional typography
+
+Muted Text
+
+{{% muted %}}
+Some text  • For your information • Not as noticeable
+{{% /muted %}}
+
+
+Result:
+
+
+  Some text  • For your information • Not as noticeable
+
+
+
+
+=======
+
+Columns
+
+
+  
+Default message without title.
+This is my text and a link to Google
+
+
+
+
+Default message without title.
+This is my text and a link to Google
+
+
+
+
+Default message without title.
+This is my text and a link to Google
+
+
+
+
+
+center, right, left
+
+## default
+![img](/path/to/img.gif &quot;img&quot;)
+
+{{% center %}}
+## center
+![img](/path/to/img.gif &quot;img&quot;)
+{{% /center %}}
+
+{{% right %}}
+## right
+![img](/path/to/img.gif &quot;img&quot;)
+{{% /right %}}
+
+{{% left %}}
+## left
+![img](/path/to/img.gif &quot;img&quot;)
+{{% /left %}}
+
+
+">
+
+
+<meta itemprop="datePublished" content="2016-08-30T16:01:23&#43;08:00" />
+<meta itemprop="dateModified" content="2016-08-30T16:01:23&#43;08:00" />
+<meta itemprop="wordCount" content="398">
+
+
+
+<meta itemprop="keywords" content="shortcodes," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Shortcodes"/>
+<meta name="twitter:description" content="buttons
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+  Button  
+
+
+
+
+Optional typography
+
+Muted Text
+
+{{% muted %}}
+Some text  • For your information • Not as noticeable
+{{% /muted %}}
+
+
+Result:
+
+
+  Some text  • For your information • Not as noticeable
+
+
+
+
+=======
+
+Columns
+
+
+  
+Default message without title.
+This is my text and a link to Google
+
+
+
+
+Default message without title.
+This is my text and a link to Google
+
+
+
+
+Default message without title.
+This is my text and a link to Google
+
+
+
+
+
+center, right, left
+
+## default
+![img](/path/to/img.gif &quot;img&quot;)
+
+{{% center %}}
+## center
+![img](/path/to/img.gif &quot;img&quot;)
+{{% /center %}}
+
+{{% right %}}
+## right
+![img](/path/to/img.gif &quot;img&quot;)
+{{% /right %}}
+
+{{% left %}}
+## left
+![img](/path/to/img.gif &quot;img&quot;)
+{{% /left %}}
+
+
+"/>
+
+</head>
+<body>
+  <header id="header" class="header">
+    <h1>Google Summer of Code 2018</h1>
+    <h2>Work Submission by <a href="https://twitter.com/msurguy">Maks Surguy</a></h2>
+  </header>
+
+  <div class="main-wrapper">
+    <div class="middle">
+      <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Shortcodes</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2016-08-30 </span>
+        <div class="post-category">
+            
+              <a href="/GSOC2018-processing-pi/categories/shortcodes/"> shortcodes </a>
+            
+          </div>
+      </div>
+    </header>
+
+    
+    <div class="post-content">
+      <h1 id="buttons">buttons</h1>
+
+<p><a href="#" class="button " role="button">  Button  </a></p>
+
+
+
+
+<p><a href="#" class="button secondary" role="button">  Button  </a></p>
+
+
+
+
+<p><a href="#" class="button outline" role="button">  Button  </a></p>
+
+
+
+
+<p><a href="#" class="button secondary outline" role="button">  Button  </a></p>
+
+
+
+
+<p><a href="#" class="button small" role="button">  Button  </a></p>
+
+
+
+
+<p><a href="#" class="button secondary small" role="button">  Button  </a></p>
+
+
+
+
+<p><a href="#" class="button big" role="button">  Button  </a></p>
+
+
+
+
+<p><a href="#" class="button secondary big" role="button">  Button  </a></p>
+
+
+
+
+<p><a href="#" class="button large" role="button">  Button  </a></p>
+
+
+
+
+<p><a href="#" class="button secondary large" role="button">  Button  </a></p>
+
+
+
+
+<p><a href="#" class="button upper" role="button">  Button  </a></p>
+
+
+
+
+<p><a href="#" class="button secondary upper" role="button">  Button  </a></p>
+
+
+
+
+<p><a href="#" class="button upper outline" role="button">  Button  </a></p>
+
+
+
+
+<p><a href="#" class="button secondary upper outline" role="button">  Button  </a></p>
+
+
+
+
+<p><a href="#" class="button round" role="button">  Button  </a></p>
+
+
+
+
+<p><a href="#" class="button secondary round" role="button">  Button  </a></p>
+
+
+
+
+<p><a href="#" class="button round outline" role="button">  Button  </a></p>
+
+
+
+
+<p><a href="#" class="button secondary round outline" role="button">  Button  </a></p>
+
+
+
+
+<p><a href="#" class="button inverted" role="button">  Button  </a></p>
+
+
+
+
+<h1 id="optional-typography">Optional typography</h1>
+
+<p>Muted Text</p>
+
+<pre><code class="language-markdown">{{% muted %}}
+Some text  • For your information • Not as noticeable
+{{% /muted %}}
+</code></pre>
+
+<p>Result:</p>
+
+<div class="muted">
+  <p>Some text  • For your information • Not as noticeable</p>
+
+</div>
+
+
+<p>=======</p>
+
+<h1 id="columns">Columns</h1>
+
+<div class="row">
+  <div class="col col-4">
+<p>Default message without title.
+This is my text and a link to <a href="google.com">Google</a></p>
+
+</div>
+
+<div class="col col-4">
+<p>Default message without title.
+This is my text and a link to <a href="google.com">Google</a></p>
+
+</div>
+
+<div class="col col-4">
+<p>Default message without title.
+This is my text and a link to <a href="google.com">Google</a></p>
+
+</div>
+
+</div>
+
+<h1 id="center-right-left">center, right, left</h1>
+
+<pre><code>## default
+![img](/path/to/img.gif &quot;img&quot;)
+
+{{% center %}}
+## center
+![img](/path/to/img.gif &quot;img&quot;)
+{{% /center %}}
+
+{{% right %}}
+## right
+![img](/path/to/img.gif &quot;img&quot;)
+{{% /right %}}
+
+{{% left %}}
+## left
+![img](/path/to/img.gif &quot;img&quot;)
+{{% /left %}}
+</code></pre>
+
+<p></p>
+
+<h2 id="default">default</h2>
+
+<p><img src="https://wx1.sinaimg.cn/small/006SToa6ly1fm07summ2gj30qo0qomzu.jpg" alt="img" title="img" /></p>
+
+<div class='text-center'>
+  <h2 id="center">center</h2>
+
+<p><img src="https://wx1.sinaimg.cn/small/006SToa6ly1fm07summ2gj30qo0qomzu.jpg" alt="img" title="img" /></p>
+
+</div>
+
+<div class='text-right'>
+  <h2 id="right">right</h2>
+
+<p><img src="https://wx1.sinaimg.cn/small/006SToa6ly1fm07summ2gj30qo0qomzu.jpg" alt="img" title="img" /></p>
+
+</div>
+
+<div class='text-left'>
+  <h2 id="left">left</h2>
+
+<p><img src="https://wx1.sinaimg.cn/small/006SToa6ly1fm07summ2gj30qo0qomzu.jpg" alt="img" title="img" /></p>
+
+</div>
+
+<hr />
+
+<h2 id="figure-with-class">figure with class</h2>
+
+<pre><code>{{% figure src=&quot;/path/to/img.gif&quot; title=&quot;default&quot; alt=&quot;img&quot; %}}
+{{% figure class=&quot;text-center&quot; src=&quot;/path/to/img.gif&quot; title=&quot;center&quot; alt=&quot;img&quot; %}}
+{{% figure class=&quot;text-right&quot; src=&quot;/path/to/img.gif&quot; title=&quot;right&quot; alt=&quot;img&quot; %}}
+{{% figure class=&quot;text-left&quot; src=&quot;/path/to/img.gif&quot; title=&quot;left&quot; alt=&quot;img&quot; %}}
+</code></pre>
+
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+
+
+<img src="https://wx1.sinaimg.cn/small/006SToa6ly1fm07summ2gj30qo0qomzu.jpg" alt="img"  />
+
+
+
+<figcaption>
+  <header>default</header>
+  
+</figcaption>
+
+</figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure class="text-center">
+
+
+<img src="https://wx1.sinaimg.cn/small/006SToa6ly1fm07summ2gj30qo0qomzu.jpg" alt="img"  />
+
+
+
+<figcaption>
+  <header>center</header>
+  
+</figcaption>
+
+</figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure class="text-right">
+
+
+<img src="https://wx1.sinaimg.cn/small/006SToa6ly1fm07summ2gj30qo0qomzu.jpg" alt="img"  />
+
+
+
+<figcaption>
+  <header>right</header>
+  
+</figcaption>
+
+</figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure class="text-left">
+
+
+<img src="https://wx1.sinaimg.cn/small/006SToa6ly1fm07summ2gj30qo0qomzu.jpg" alt="img"  />
+
+
+
+<figcaption>
+  <header>left</header>
+  
+</figcaption>
+
+</figure></p>
+
+<hr />
+
+<pre><code>{{% center %}}
+
+## hybrid in center
+{{% figure src=&quot;/path/to/img.gif&quot; title=&quot;default&quot; alt=&quot;img&quot; %}}
+{{% figure class=&quot;text-right&quot; src=&quot;/path/to/img.gif&quot; title=&quot;right&quot; alt=&quot;img&quot; %}}
+
+{{% left %}}
+{{% figure src=&quot;/path/to/img.gif&quot; title=&quot;default in left&quot; alt=&quot;img&quot; %}}
+{{% /left %}}
+
+{{% /center %}}
+</code></pre>
+
+<div class='text-center'>
+  <h2 id="hybrid-in-center">hybrid in center</h2>
+
+<figure>
+
+
+<img src="https://wx1.sinaimg.cn/small/006SToa6ly1fm07summ2gj30qo0qomzu.jpg" alt="img"  />
+
+
+
+<figcaption>
+  <header>default</header>
+  
+</figcaption>
+
+</figure>
+
+<figure class="text-right">
+
+
+<img src="https://wx1.sinaimg.cn/small/006SToa6ly1fm07summ2gj30qo0qomzu.jpg" alt="img"  />
+
+
+
+<figcaption>
+  <header>right</header>
+  
+</figcaption>
+
+</figure>
+<div class='text-left'>
+  <figure>
+
+
+<img src="https://wx1.sinaimg.cn/small/006SToa6ly1fm07summ2gj30qo0qomzu.jpg" alt="img"  />
+
+
+
+<figcaption>
+  <header>default in left</header>
+  
+</figcaption>
+
+</figure>
+
+<p></div></p>
+
+</div>
+
+<p>===</p>
+
+<h1 id="messages-alerts">Messages / alerts</h1>
+
+
+  <div class="message ">
+    <p>Default message without title.
+This is my text and a link to <a href="google.com">Google</a></p>
+
+  </div>
+
+
+
+  <div class="message ">
+  
+  <h5>
+    Message with title
+  </h5>
+  
+  <p>Default message with a title.
+This is my text and a link to <a href="google.com">Google</a></p>
+
+  </div>
+
+
+
+  <div class="message warning">
+  
+  <h5>
+    Warning!
+  </h5>
+  
+  <p>Warning message with a title.
+This is my text and a link to <a href="google.com">Google</a></p>
+
+  </div>
+
+
+
+  <div class="message warning">
+    <p>Warning message without the title
+This is my text and a link to <a href="google.com">Google</a></p>
+
+  </div>
+
+
+
+  <div class="message success">
+  
+  <h5>
+    Success!
+  </h5>
+  
+  <p>Success message with a title.
+This is my text and a link to <a href="google.com">Google</a></p>
+
+  </div>
+
+
+
+  <div class="message success">
+    <p>Success message without the title
+This is my text and a link to <a href="google.com">Google</a></p>
+
+  </div>
+
+
+
+  <div class="message focus">
+  
+  <h5>
+    Focus!
+  </h5>
+  
+  <p>Focus message with a title.
+This is my text and a link to <a href="google.com">Google</a></p>
+
+  </div>
+
+
+
+  <div class="message focus">
+    <p>Focus message without the title
+This is my text and a link to <a href="google.com">Google</a></p>
+
+  </div>
+
+
+
+  <div class="message error">
+  
+  <h5>
+    Error!
+  </h5>
+  
+  <p>Error message with a title.
+This is my text and a link to <a href="google.com">Google</a></p>
+
+  </div>
+
+
+
+  <div class="message error">
+    <p>Error message without the title
+This is my text and a link to <a href="google.com">Google</a></p>
+
+  </div>
+
+
+
+  <div class="message black">
+    <p>Black background message without the title
+This is my text and a link to <a href="google.com">Google</a></p>
+
+  </div>
+
+
+
+  <div class="message inverted">
+    <p>Inverted  background message without the title
+This is my text and a link to <a href="google.com">Google</a></p>
+
+  </div>
+
+
+<hr />
+
+<style>
+.post-content img {
+  height: 64px;
+}
+</style>
+    </div>
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/GSOC2018-processing-pi/tags/shortcodes/">shortcodes</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+        
+      </nav>
+    </footer>
+  </article>
+    </div>
+    <nav class="nav-container">
+      <ul id="nav-menu" class="menu">
+        <li class="menu-item">
+          <a class="menu-item-link" href="/GSOC2018-processing-pi/">Home</a>
+        </li><li class="menu-item">
+          <a class="menu-item-link" href="/GSOC2018-processing-pi/context/">Context</a>
+        </li><li class="menu-item">
+          <a class="menu-item-link" href="/GSOC2018-processing-pi/process/">Process</a>
+        </li><li class="menu-item">
+          <a class="menu-item-link" href="/GSOC2018-processing-pi/result/">Result</a>
+        </li><li class="menu-item">
+          <a class="menu-item-link" href="#next-steps">Next Steps</a>
+        </li>
+      </ul>
+    </nav>
+
+    
+    <nav class="aside-container">
+      
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#buttons">buttons</a></li>
+<li><a href="#optional-typography">Optional typography</a></li>
+<li><a href="#columns">Columns</a></li>
+<li><a href="#center-right-left">center, right, left</a>
+<ul>
+<li><a href="#default">default</a></li>
+<li><a href="#figure-with-class">figure with class</a></li>
+</ul></li>
+<li><a href="#messages-alerts">Messages / alerts</a></li>
+</ul>
+</nav>
+  </div>
+</div>
+    </nav>
+
+  </div>
+
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      <p>© Maksim Surguy 2018 </p>
+    </div>
+  </footer>
+
+  
+<script src="/GSOC2018-processing-pi/lib/highlight/highlight.pack.js?v=20171001"></script>
+
+<script type="text/javascript" src="/GSOC2018-processing-pi/lib/jquery/jquery-3.2.1.min.js"></script>
+
+<script type="text/javascript" src="/GSOC2018-processing-pi/dist/gsoc-theme.min.js?v=3.1.2"></script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="https://msurguy.github.io/GSOC2018-processing-pi/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://msurguy.github.io/GSOC2018-processing-pi/context/</loc>
+    <lastmod>2018-08-13T21:41:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://msurguy.github.io/GSOC2018-processing-pi/process/</loc>
+    <lastmod>2018-08-13T21:41:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://msurguy.github.io/GSOC2018-processing-pi/result/</loc>
+    <lastmod>2018-08-13T21:41:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://msurguy.github.io/GSOC2018-processing-pi/</loc>
+    <lastmod>2018-08-13T21:41:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://msurguy.github.io/GSOC2018-processing-pi/post/shortcodes/</loc>
+    <lastmod>2018-02-01T18:01:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://msurguy.github.io/GSOC2018-processing-pi/categories/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://msurguy.github.io/GSOC2018-processing-pi/post/</loc>
+    <lastmod>2018-02-01T18:01:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://msurguy.github.io/GSOC2018-processing-pi/tags/shortcodes/</loc>
+    <lastmod>2018-02-01T18:01:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://msurguy.github.io/GSOC2018-processing-pi/categories/shortcodes/</loc>
+    <lastmod>2018-02-01T18:01:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://msurguy.github.io/GSOC2018-processing-pi/tags/</loc>
+    <lastmod>2018-02-01T18:01:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
