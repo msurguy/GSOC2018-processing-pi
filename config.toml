@@ -38,11 +38,6 @@ publishDir = "docs"
   identifier = "Process"
   url = "/process/"
 [[menu.main]]
-  name = "Result"
-  weight = 30
-  identifier = "result"
-  url = "/result/"
-[[menu.main]]
   name = "Next Steps"
   weight = 80
   identifier = "next-steps"

@@ -91,7 +91,15 @@ Here's the progression of my process for this project:
 
 ## Next Steps
 
-What can be done
+What can be done in the future:
+
+There are lots of features that can be added to the site: 
+
+- copy-to-clipboard button for all code
+- multiple file code preview
+- better mobile navigation
+
+Also, many more tutorials and resources can be added the site!
 
 ## Fin
 
